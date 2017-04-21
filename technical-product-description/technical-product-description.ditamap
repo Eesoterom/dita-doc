@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>
+  <image href="images/logo_cemona.png" placement="break"/>
+  <ph>Автономная система мониторинга сетей сотовой связи 2G/3G/4G CEMONA</ph>
+  <ph>Техническое описание системы</ph>
+  
+ </title>
+ <topicmeta>
+  <copyright>
+   <copyryear year="2017"/>
+   <copyrholder>copyrholder</copyrholder>
+  </copyright>
+  <critdates>
+   <revised modified="modified" golive="11.03.2017"/>
+  </critdates>
+  <prodinfo>
+   <prodname>Cemona</prodname>
+   <vrmlist>
+    <vrm version="1.0"/>
+   </vrmlist>
+  </prodinfo>
+ </topicmeta>
+ <topichead navtitle="Введение">
+  <topicref href="topics/terms-definitions-abbreviations.dita"  />
+  <topicref href="topics/appointment.dita"/>
+  <topicref href="topics/key-features.dita"/>
+ </topichead>
+</map>

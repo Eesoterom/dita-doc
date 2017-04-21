@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="terms_definitions_abbreviations">
+  <title>Термины, определения и используемые сокращения</title>
+  <shortdesc></shortdesc>
+  <refbody>
+    <section>
+      <p>В настоящем описании используются следующие сокращения:</p>
+      <p><term>КПЭ</term> – ключевые показатели эффективности.</p>
+    </section>
+  </refbody>
+</reference>

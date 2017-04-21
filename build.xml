@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="build-pdf" default="all" basedir=".">
+
+  <property name="dita.dir" location="d:\dita\dita-ot-2.4"/>
+  
+  <target name="all" description="build CHM and PDF" depends="pdf"/>
+ 
+  <target name="pdf" description="build PDF">
+	  <ant antfile="${dita.dir}/build.xml">
+		<property name="args.input" location="d:\dita\doc_source\technical-product-description\technical-product-description.ditamap"/>
+		<property name="transtype" value="dmtel_pdf"/>
+		<property name="output.dir" location="d:\dita\doc_out\pdf"/>
+		<property name="args.gen.task.lbl" value="YES"/>
+		<property name="args.fo.include.rellinks" value="none"/>		
+	</ant>
+  </target>
+
+</project>
